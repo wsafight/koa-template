@@ -10,7 +10,6 @@ interface AppConfig {
 export default function setupServer(config: AppConfig, controllers: Function[]) {
   const koa = new Koa()
 
-  // 处理 post 对象
   koa.use(bodyParser())
 
   const app = useKoaServer(koa, {
