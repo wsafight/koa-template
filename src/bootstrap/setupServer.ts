@@ -20,7 +20,6 @@ export default function setupServer(config: AppConfig, controllers: Function[]) 
   })
 
   app.listen(config.serverPort)
-
   return app
 }
 
