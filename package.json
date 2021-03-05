@@ -12,6 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "memoizee-proxy": "^0.0.5",
     "@types/minimist": "^1.2.1",
     "better-queue": "^3.8.10",
     "class-transformer": "^0.4.0",
