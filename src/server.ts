@@ -7,4 +7,4 @@ function parseCmdArgs(args: string[]): CmdArgs {
   return {}
 }
 
-const app = bootstrapApp(parseCmdArgs(process.argv.slice(2)))
+bootstrapApp(parseCmdArgs(process.argv.slice(2)))
