@@ -1,7 +1,8 @@
+import Koa from 'koa'
 import 'reflect-metadata'
 import bodyParser from 'koa-bodyparser'
 import { useKoaServer } from 'routing-controllers'
-import Koa from 'koa'
+
 
 interface AppConfig {
   serverPort: string
